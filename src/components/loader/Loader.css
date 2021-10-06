@@ -1,0 +1,21 @@
+.loader {
+    color: brown;
+    font-size: 100px;
+    animation: earth 5s infinite;
+    margin: 30vh 37vw;
+}
+
+@keyframes earth {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

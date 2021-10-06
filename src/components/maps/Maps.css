@@ -1,0 +1,40 @@
+.leaflet-container {
+    background-color: rgb(0, 0, 0);
+}
+
+table {
+    margin: 0vh 45vw;
+    border-collapse: collapse;
+    border-spacing: 0;
+    position: relative;
+    width: 50%;
+    max-height: 450px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    z-index: 400;
+    background-color: crimson;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+tbody {
+    max-height: 400px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 30px; */
+}
+
+thead {
+    /* position: sticky; */
+    background-color: lightblue;
+    width: 260px;
+}

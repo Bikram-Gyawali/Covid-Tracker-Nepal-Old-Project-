@@ -1,0 +1,119 @@
+.main-table {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 80vw;
+    margin-left: 10vw;
+    justify-content: center;
+}
+
+.table-left {
+    display: flex;
+    align-items: flex-start;
+    width: 40vw;
+    margin: 0 20px 0 0;
+}
+
+.table-right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+}
+
+.table-right>div {
+    width: 200px;
+    padding: 10px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table-left>div {
+    width: 200px;
+    padding: 10px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table-left>div>i {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+a>i {
+    font-size: 20px;
+}
+
+.table-right>div>i {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.table-left>div:nth-child(odd) {
+    transition: all 0.1s linear;
+    background-color: rgb(221, 144, 144);
+}
+
+.table-left>div:nth-child(odd):hover {
+    transition: all 0.2s linear;
+    background-color: rgb(243, 106, 106);
+}
+
+.table-left>div:nth-child(even) {
+    transition: all 0.1s linear;
+    background-color: rgb(236, 215, 155);
+}
+
+.table-left>div:nth-child(even):hover {
+    transition: all 0.1s linear;
+    background-color: rgb(240, 204, 106);
+}
+
+.table-right>div:nth-child(odd) {
+    transition: all 0.1s linear;
+    background-color: rgb(230, 243, 207);
+}
+
+.table-right>div:nth-child(even) {
+    transition: all 0.1s linear;
+    background-color: rgb(241, 183, 156);
+}
+
+.table-right>div:nth-child(odd):hover {
+    transition: all 0.1s linear;
+    background-color: rgb(195, 247, 107);
+}
+
+.table-right>div:nth-child(even):hover {
+    transition: all 0.1s linear;
+    background-color: rgb(245, 128, 73);
+}
+
+.table-right>p {
+    position: relative;
+    float: right;
+    text-decoration: underline;
+    margin: 5px 9vw;
+}
+
+.total {
+    background-color: sandybrown;
+}
+
+.loader {
+    animation: earth 5s infinite;
+}
+
+@keyframes earth {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

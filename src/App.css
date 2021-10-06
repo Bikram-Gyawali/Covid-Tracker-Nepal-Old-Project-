@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(5, 29, 110) rgb(255, 255, 255);
+}
+
+.leaflet-container {
+    width: 90%;
+    height: 70vh;
+    margin: 15vh 5vw;
+    background-color: rgb(226, 26, 93);
+}
+
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+    touch-action: none;
+    z-index: 1;
+}
