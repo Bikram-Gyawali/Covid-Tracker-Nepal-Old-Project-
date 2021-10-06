@@ -1,5 +1,17 @@
-### `Demo of Project`
-      [https://www.youtube.com/watch?v=P8ioQr2sLyE&t=51s]
+### `Demo of Project` (https://www.youtube.com/watch?v=P8ioQr2sLyE&t=51s).
+###  Features: 
+        1."get covid status of every district",
+        2."district selectable from map",
+        3."map includes kalapani and limpyadhura",
+        4."geojson",
+        5."graph of covid status around the world and nepal",
+        6."infinite scrolling",
+        7."faq section about Covid prevntion measures",
+        8."country ranking according to covid status",
+        9."display district with provience number",
+        10."recent news about Covid19",
+        11."attractive loader"
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
